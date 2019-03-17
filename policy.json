@@ -1,4 +1,11 @@
 {
   "name" : "campaign-template",
-  "rules": [ ]
+  "rules": [ 
+      {
+      "sites": ["*://www.this-is-just-an-example.com/*"],
+      "actions": [
+        { "action": "block", "message": "The people behind this website don't really exist!" }
+      ]
+    }
+  ]
 }
