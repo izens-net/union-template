@@ -1,13 +1,13 @@
-# izens.net Campaign Template
+# izens.net Union Template
 
-This is a template for campaigns hosted on Github. In order to use it to start
-your own campaign:
+This is a template for union hosted on Github. In order to use it to start
+your own union:
 
 1) Fork it
 2) In the GitHub Pages section of the Settings tab, set the Source to `master branch`.
-3) Add a description of the campaign to `index.html`. Feel free to also change
+3) Add a description of the union to `index.html`. Feel free to also change
    its appearance.
-4) Update the `policy.json` file to reflect your campaign.
+4) Update the `policy.json` file to reflect your union.
 
 # Notes
 
