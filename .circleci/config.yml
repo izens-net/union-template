@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run: |
+          sudo npm install -g ajv-cli
+          curl https://izens.net/schemas/policy.json > schema.json
+          ajv validate -s schema.json -d policy.json
